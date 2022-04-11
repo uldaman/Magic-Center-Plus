@@ -18,9 +18,6 @@ def load_bitmap(path):
     return bmp
 
 
-import c4d
-
-
 def Join(op, doc):
     res = c4d.utils.SendModelingCommand(command=c4d.MCOMMAND_JOIN,
         list=[op],
@@ -58,16 +55,13 @@ def CenterPoly(op):  # Center poly's axis
                 matrix.v1, matrix.v2, matrix.v3))  # Set new matrix for the poly
 
 
-
-
-
 class MagicCenterPlus(c4d.plugins.CommandData):
 
     PLUGIN_ID = 1059312
     PLUGIN_NAME = 'MagicCenterPlus'
     PLUGIN_INFO = 0
     PLUGIN_ICON = load_bitmap('res/icons/magiccenterplus.png')
-    PLUGIN_HELP = ''
+    PLUGIN_HELP = 'MagicCenterPlus 1.0 by 撸铁猿'
 
     def Register(self):
         return c4d.plugins.RegisterCommandPlugin(
