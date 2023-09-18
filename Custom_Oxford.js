@@ -214,7 +214,7 @@ class Custom_Oxford {
                 div.idmphrase {font-weight: bold;margin: 0;padding: 0;}
                 span.eng_dis  {margin-right: 5px;}
                 span.chn_dis  {margin: 0;padding: 0;}
-                span.pos  {text-transform:lowercase; font-size:0.9em; margin-right:5px; padding:2px 4px; color:white; background-color:#0d47a1; border-radius:3px;}
+                span.pos  {text-transform:lowercase; font-size:0.9em; margin-right:5px; padding:0.8px 4px; color:white; background-color:#0d47a1; border-radius:3px;}
                 span.tran {margin:0; padding:0;}
                 span.eng_tran {margin-right:3px; padding:0;}
                 span.chn_tran {color:#0d47a1;font-size:13px;}
